@@ -1,3 +1,3 @@
-react-native-iconfont-demo
+###react-native-iconfont-demo
 
-init use iconfont in reactNative by react-native-vector-icons
+use iconfont in reactNative by react-native-vector-icons
