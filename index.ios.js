@@ -11,25 +11,22 @@ import {
   Text,
   View
 } from 'react-native';
+import Icon from './iconSets';
+import IconDefault from 'react-native-vector-icons/FontAwesome';
 
 export default class iconfontProject extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
+        <IconDefault name='rocket' size={60} color="#4F8EF7" />
+        <Icon name='icon-comments' size={60} color="#4F8EF7" />
+        <Icon name='icon-close' size={60} color="#4F8EF7" />
       </View>
     );
   }
 }
+
+
 
 const styles = StyleSheet.create({
   container: {
